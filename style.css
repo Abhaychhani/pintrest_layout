@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+.image-container{
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    column-width:200px;
+}
+.image-wrapper{
+    width: 100%;
+    filter: blur(5px);
+    transition: all 0.5s;
+}
+
+.image-wrapper .image{
+    position: relative;
+    border-radius: 5px;
+    object-fit:cover;
+    width: inherit;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.2);
+}
